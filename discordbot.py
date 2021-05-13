@@ -1,6 +1,5 @@
 import discord
 
-discord_token = '***' # Discordbotのアクセストークンを入力
 discord_voice_channel_id = '' # 特定のボイスチャンネルを指定
 youtube_url = 'https://www.youtube.com/watch?v=FIw-HUP7XK0' # youtubeのURLを指定
 
