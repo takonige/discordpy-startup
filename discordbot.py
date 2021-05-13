@@ -16,7 +16,7 @@ async def on_command_error(ctx, error):
     
 @bot.event
 async def on_ready():
-    await ctx.send('bot is activate'
+    await ctx.send('bot is activate')
 
 
 @bot.command()
