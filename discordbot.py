@@ -106,3 +106,6 @@ async def on_message(message: discord.Message):
         message.guild.voice_client.stop()
 
         await message.channel.send("ストップしました。")
+
+
+bot.run(token)
