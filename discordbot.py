@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def on_ready(ctx):
-    await ctx.send(now_rdy)
+    await ctx.print(now_rdy)
 
 
 @bot.command()
