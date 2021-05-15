@@ -13,7 +13,7 @@ async def on_command_error(ctx, error):
     await ctx.send(error_msg)
 
 
-@bot.event
+@bot.command()
 async def on_ready:
     await ctx.send(now_rdy)
 
