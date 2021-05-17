@@ -1,8 +1,8 @@
+
 import discord
 from discord.ext import commands
 import os
 import traceback
-import youtube-dl
 
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
