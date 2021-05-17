@@ -35,4 +35,10 @@ async def join(ctx):
     await channel.connect() #VoiceChannel.connect()を使用
 
 
+@bot.command()
+async def rtb(ctx)
+    await ctx.send('copy')
+    await discord.VoiceClient.disconnect()
+
+
 bot.run(token)
