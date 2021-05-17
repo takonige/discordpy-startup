@@ -1,4 +1,3 @@
-import youtube-dl
 import discord
 from discord.ext import commands
 import os
