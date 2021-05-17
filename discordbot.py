@@ -37,8 +37,7 @@ async def join(ctx):
 
 @bot.command()
 async def rtb(ctx):
-    await ctx.send('copy')
     await discord.VoiceClient.disconnect()
-
+    await ctx.send('copy')
 
 bot.run(token)
